@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(green,white,red);
+    display: flex;
+    font-family: 'Dosis',sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.cal{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.5);
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px rgba(35, 35, 35, 0.1) ;
+    width: 500px;
+    height: 600px;
+}
+
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.5);
+    color: rgb(88, 88, 95);
+    box-shadow: 1px 3px 5px ;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 70px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.cal-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    width: 108px;
+    height: 90px;
+    text-align: center;
+    border-radius: 20%;
+    background: rgba(245, 245, 220, 0.5);
+    font-size: 30px;
+    font-family: inherit;
+    border: 1px solid rgba(23, 23, 23, 0.5);
+    box-shadow: 0px 5px 20px rgba(35, 35, 35, 0.1);
+}
+
+.cal-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.cal-button:last-child{
+    background: rgba(72, 215, 255,0.5);
+    font-weight: bold;
+    color: rgb(240, 10, 182);
+}
+
+.cal-button:hover{
+    background: rgba(72, 255, 115, 0.5)
+}
+
+.double{
+    width: 216px;
+    border-radius: 15px;
+}
