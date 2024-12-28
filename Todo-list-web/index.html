@@ -1,28 +1,34 @@
+<!--
+This HTML document represents a basic structure for a To-Do List application. 
+It includes a header with metadata and a link to an external CSS file for styling. 
+The body contains a main container with a title and a list of buttons for adding, editing, 
+completing, deleting, and showing tasks. An initially hidden div is present for displaying 
+activities. A script tag at the end links to an external JavaScript file for functionality.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>To-Do List</title>
-</head>
-<body>
-    <div class="test">
-
-    </div>
+  </head>
+  <body>
+    <div class="test"></div>
     <div class="container">
-        <h1><_>To-Do List<_></h1>
-        <ul class="a_list">
-            <li class="op"><button id="add">add task</button></li>
-            <li class="op"><button id="edit">edit task</button></li>
-            <li class="op"><button id="complete">mark as complete</button></li>
-            <li class="op"><button id="delete">delete task</button></li>
-            <li class="op"><button id="tasks">Show tasks</button></li>
-        </ul>
+      <h1><_>To-Do List<_></h1>
+      <ul class="a_list">
+        <li class="op"><button id="add">add task</button></li>
+        <li class="op"><button id="edit">edit task</button></li>
+        <li class="op"><button id="complete">mark as complete</button></li>
+        <li class="op"><button id="delete">delete task</button></li>
+        <li class="op"><button id="tasks">Show tasks</button></li>
+      </ul>
     </div>
 
     <div class="activities" id="activities" hidden></div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
